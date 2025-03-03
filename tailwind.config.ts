@@ -18,7 +18,7 @@ export default {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        inter: ['sofia', 'sofia-pro'],
+        sofia: ['sofia-pro'],
       },
     },
   },
