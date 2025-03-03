@@ -8,9 +8,17 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: ({ theme }) => ({
+        mindfulbg: `linear-gradient(${theme('colors.mindfulgray')} ,${theme('colors.mindfulpurple')}})`,
+      }),
       colors: {
+        mindfulgray: '#EEEEE7',
+        mindfulpurple: '#C3AEFD',
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      fontFamily: {
+        inter: ['sofia', 'sofia-pro'],
       },
     },
   },
