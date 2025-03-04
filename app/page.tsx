@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="font-sofia text-black bg-gradient-to-b from-gray-100 to-purple-200 flex items-center justify-center">
+    <div className="relative overflow-hidden  font-sofia text-black bg-gradient-to-b from-gray-100 to-purple-200 flex items-center justify-center min-h-screen">
       <div className="w-full  text-center p-6 container">
         <div className="mt-[40px] flex justify-center items-center relative w-full h-[42px] sm:h-[62px] mb-[88px]">
           <Image fill src="/mindful_brand_logo.svg" alt="Mindful Brandta Logo"  />
@@ -19,7 +19,10 @@ export default function Home() {
             <Image fill src="/linkedin.svg" alt="LinkedIn Logo"  />
           </Link>
         </div>
+
       </div>
+      <img className="absolute -bottom-[400px] xl:bottom-0 left-0" src="/bg-motif-desktop-left.svg" alt="mindful brand motif" />
+      <img className="absolute -top-[150px] xl:top-0 right-0" src="/bg-motif-desktop-right.svg" alt="mindful brand motif" />
     </div>
   );
 }
