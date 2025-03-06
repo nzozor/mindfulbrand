@@ -8,8 +8,8 @@ export default function Home() {
         <div className="mt-[40px] flex justify-center items-center relative w-full h-[42px] sm:h-[62px] mb-[88px]">
           <Image fill src="/mindful_brand_logo.svg" alt="Mindful Brandta Logo"  />
         </div>
-        <h1 className="font-bold text-black text-[65px]/[90px]  sm:text-[103px] weight-[700] mb-[40px] sm:mb-[60px] line-h">Launching Soon</h1>
-        <p className="text-black  mx-auto  text-[29px] weight-[500] max-w-5xl mb-[40px] sm:mb-[90px]">
+        <h1 className="font-bold text-black text-[65px] leading-none  sm:text-[103px] weight-[700] mb-[40px] sm:mb-[60px]">Launching Soon</h1>
+        <p className="text-black  mx-auto  text-[29px] weight-[500] leading-tight  sm:leading-relaxed  max-w-5xl mb-[40px] sm:mb-[90px]">
           A brand consultancy helping meaning-driven female founders succeed with expertise in entrepreneurship, brand strategy, and visual identity using a holistic and founder-focused approach to brand creation.
         </p>
         <p className="text-black font-semibold mb-10 text-[26px]/[40px] sm:text-[34px] weight-[700] ">Want to build a trustworthy lifestyle brand?</p>
