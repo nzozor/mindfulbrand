@@ -14,6 +14,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Mindful Brand",
+  description: "A brand consultancy helping meaning-driven female founders succeed",
+  icons: {
+    icon: "/favicon.svg", // Favicon path in public folder
+  },
 };
 
 export default function RootLayout({
