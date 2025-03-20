@@ -12,7 +12,7 @@ export default function Home() {
         <p className="text-black  mx-auto  text-[29px] weight-[500] leading-tight  sm:leading-relaxed  max-w-5xl mb-[40px] sm:mb-[90px]">
           A brand consultancy helping meaning-driven female founders succeed with expertise in entrepreneurship, brand strategy, and visual identity using a holistic and founder-focused approach to brand creation.
         </p>
-        <p className="text-black font-semibold mb-10 text-[26px]/[40px] sm:text-[34px] weight-[700] ">Want to build a trustworthy lifestyle brand?</p>
+        <p className="text-black font-semibold mb-10 text-[26px]/[40px] sm:text-[34px] weight-[700] ">Ready to build a trustworthy consumer brand?</p>
         <Link href="https://docs.google.com/forms/d/1kj-ahmi5jnrEnjYvM3QPLzvm_FhOh4ojp4D_pS6oNjY/edit"  target="_blank" rel="noopener noreferrer" className="bg-black text-white px-6 py-3 rounded-full text-lg font-semibold">Get in touch</Link>
         <div className="  mt-6 flex justify-center">
           <Link href="https://www.linkedin.com/company/mindful-brand/" target="_blank" rel="noopener noreferrer" className="text-black text-2xl relative w-full h-[42px] mt-10" aria-label="LinkedIn">
