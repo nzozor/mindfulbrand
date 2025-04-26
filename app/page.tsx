@@ -10,7 +10,9 @@ export default function Home() {
         </div>
         <h1 className="font-bold text-black text-[65px] leading-none  sm:text-[103px] weight-[700] mb-[40px] sm:mb-[60px]">Launching Soon</h1>
         <p className="text-black  mx-auto  text-[29px] weight-[500] leading-tight  sm:leading-relaxed  max-w-5xl mb-[40px] sm:mb-[90px]">
-          A brand consultancy helping meaning-driven female founders succeed with expertise in entrepreneurship, brand strategy, and visual identity using a holistic and founder-focused approach to brand creation.
+          A brand consultancy helping early-stage B2C female founders
+          grow their businesses using the transformative power of brand
+          through strategy and design.
         </p>
         <p className="text-black font-semibold mb-10 text-[26px]/[40px] sm:text-[34px] weight-[700] ">Ready to build a trustworthy consumer brand?</p>
         <Link href="https://docs.google.com/forms/d/1kj-ahmi5jnrEnjYvM3QPLzvm_FhOh4ojp4D_pS6oNjY/edit"  target="_blank" rel="noopener noreferrer" className="bg-black text-white px-6 py-3 rounded-full text-lg font-semibold">Get in touch</Link>
@@ -21,8 +23,8 @@ export default function Home() {
         </div>
 
       </div>
-      <img className="z-[-0] absolute  max-w-xs xl:max-w-full -bottom-[50px] xl:bottom-0 -left-10 xl:left-0" src="/bg-motif-desktop-left.svg" alt="mindful brand motif" />
-      <img className="z-[-0] hidden xl:block absolute max-w-xs xl:max-w-full top-0  xl:right-0" src="/bg-motif-desktop-right.svg" alt="mindful brand motif" />
+      {/*<img className="z-[-0] absolute  max-w-xs xl:max-w-full -bottom-[50px] xl:bottom-0 -left-10 xl:left-0" src="/bg-motif-desktop-left.svg" alt="mindful brand motif" />*/}
+      {/*<img className="z-[-0] hidden xl:block absolute max-w-xs xl:max-w-full top-0  xl:right-0" src="/bg-motif-desktop-right.svg" alt="mindful brand motif" />*/}
     </div>
   );
 }
